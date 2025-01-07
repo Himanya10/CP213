@@ -1,0 +1,54 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Himanya Verma
+ID:      169051154
+Email:   Verm1154@mylaurier.ca
+Version: 2024-10-15
+-------------------------------------------------------
+"""
+----------------------------------------
+Task 1
+----------------------------------------
+Print Example 1 - People:
+
+Snord, Cranston
+
+Sharma, Priyanka: 7384737
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+----------------------------------------
+Task 2
+----------------------------------------
+Print Example 2 - Sorted People:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston
+
+----------------------------------------
+Task 3
+----------------------------------------
+Task 1 - Add CAS:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston
