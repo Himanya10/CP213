@@ -1,0 +1,238 @@
+"""
+
+Assignment 2 Methods Tests
+
+-------------------------------------------------------
+Author:  Himanya Verma
+ID:      169051154
+Email:   Verm1154@mylaurier.ca
+Version: 2024-09-09
+-------------------------------------------------------
+
+Compare Les Misérables to itself (expects 0): 0
+Compare Les Misérables to Ad Astra (expects > 0): 11
+Compare Les Misérables to Z (expects < 0): -7
+Compare Les Misérables (1998) to Les Misérables (1978)  (expects > 0): 1
+Compare Les Misérables (1998) to Les Misérables (2019) (expects < 0): -1
+List of genres:
+0: science fiction
+1: fantasy
+2: drama
+3: romance
+4: comedy
+5: zombie
+6: action
+7: historical
+8: horror
+9: war
+10: mystery
+----------------------------------------
+New Movie Object:
+Title: Dark City
+Year: 1998
+Director: Alex Proyas
+Rating: 0.0
+Genre: science fiction
+----------------------------------------
+Getters for Dark City
+Title: Dark City
+Year: 1998
+Genre (int): 0
+Genre (String): science fiction
+Directory: Alex Proyas
+Rating: 0.0
+----------------------------------------
+Get Movie from keyboard:
+Title: Zulu
+Year: 2013
+Director: Jerome Salle
+Rating (0.0-10.0): 6.7
+Genre: 0: science fiction
+1: fantasy
+2: drama
+3: romance
+4: comedy
+5: zombie
+6: action
+7: historical
+8: horror
+9: war
+10: mystery
+Enter a Genre Number: 2
+
+Title: Zulu
+Year: 2013
+Director: Jerome Salle
+Rating: 0.0
+Genre: drama
+----------------------------------------
+readFood from string
+Title: Dark City
+Year: 1998
+Director: Alex Proyas
+Rating: 0.0
+Genre: science fiction
+----------------------------------------
+----------------------------------------
+Read Movies from file:
+Title: Dellamorte Dellamore
+Year: 1994
+Director: Michele Soavi
+Rating: 0.0
+Genre: zombie
+Title: Dark City
+Year: 1998
+Director: Alex Proyas
+Rating: 0.0
+Genre: science fiction
+Title: Zulu
+Year: 1964
+Director: Cy Endfield
+Rating: 0.0
+Genre: war
+Title: I Am Legend
+Year: 2007
+Director: Francis Lawrence
+Rating: 0.0
+Genre: science fiction
+Title: Omega Man, The
+Year: 1971
+Director: Boris Sagal
+Rating: 0.0
+Genre: science fiction
+Title: Last Man On Earth, The
+Year: 1964
+Director: Ubaldo Ragona
+Rating: 0.0
+Genre: science fiction
+Title: Alphaville
+Year: 1965
+Director: Jean-Luc Godard
+Rating: 0.0
+Genre: science fiction
+Title: Stardust
+Year: 2007
+Director: Matthew Vaughn
+Rating: 0.0
+Genre: fantasy
+Title: Juno
+Year: 2007
+Director: Jason Reitman
+Rating: 0.0
+Genre: romance
+Title: Darjeeling Limited, The
+Year: 2007
+Director: Wes Anderson
+Rating: 0.0
+Genre: comedy
+Title: Broken Flowers
+Year: 2005
+Director: Jim Jarmusch
+Rating: 0.0
+Genre: romance
+Title: Star Wars: Episode IV - A New Hope
+Year: 1977
+Director: George Lucas
+Rating: 0.0
+Genre: science fiction
+Title: Horror of Dracula
+Year: 1958
+Director: Terence Fisher
+Rating: 0.0
+Genre: horror
+Title: Jason and the Argonauts
+Year: 1963
+Director: Don Chaffey
+Rating: 0.0
+Genre: fantasy
+Title: Wrong Box, The
+Year: 1966
+Director: Bryan Forbes
+Rating: 0.0
+Genre: comedy
+Title: Finding Dory
+Year: 2016
+Director: Andrew Stanton, Angus MacLane
+Rating: 0.0
+Genre: comedy
+Title: Manos: The Hands of Fate
+Year: 1966
+Director: Harold P. Warren
+Rating: 0.0
+Genre: horror
+Title: Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year: 1964
+Director: Ray Dennis Steckler
+Rating: 0.0
+Genre: horror
+Title: Z
+Year: 1969
+Director: Costa-Gavras
+Rating: 0.0
+Genre: drama
+Title: Wonder Woman
+Year: 2017
+Director: Patty Jenkins
+Rating: 0.0
+Genre: fantasy
+Title: Zulu
+Year: 2013
+Director: Jerome Salle
+Rating: 0.0
+Genre: drama
+----------------------------------------
+science fiction: 6
+fantasy: 3
+drama: 2
+romance: 2
+comedy: 3
+zombie: 1
+action: 0
+historical: 0
+horror: 3
+war: 1
+mystery: 0
+----------------------------------------
+Movie year: 2013
+
+----------------------------------------
+Title: Zulu
+Year: 2013
+Director: Jerome Salle
+Rating: 0.0
+Genre: drama
+----------------------------------------
+Movie rating: 6.7
+
+----------------------------------------
+Movie genre: 
+0: science fiction
+1: fantasy
+2: drama
+3: romance
+4: comedy
+5: zombie
+6: action
+7: historical
+8: horror
+9: war
+10: mystery
+Enter a Genre Number: 2
+
+Title: Z
+Year: 1969
+Director: Costa-Gavras
+Rating: 0.0
+Genre: drama
+Title: Zulu
+Year: 2013
+Director: Jerome Salle
+Rating: 0.0
+Genre: drama
+----------------------------------------
+Comparisons
+Compare Les Misérables to itself (expects 0): 0
+Compare Les Misérables to Ad Astra (expects > 0): 11
+Compare Les Misérables to Z (expects < 0): -7
+Compare Les Misérables (1998) to Les Misérables (1978)  (expects > 0): 1
+Compare Les Misérables (1998) to Les Misérables (2019) (expects < 0): -1
