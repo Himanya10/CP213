@@ -1,0 +1,43 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Himanya Verma
+ID:      169051154
+Email:   Verm1154@mylaurier.ca
+Version: 2024-10-16
+-------------------------------------------------------
+"""
+----------------------------------------
+Task 1
+----------------------------------------
+Test scannerTest
+
+Enter an integer: ("Quit" to stop): 5
+Enter an integer: ("Quit" to stop): x
+That is not an integer!
+Enter an integer: ("Quit" to stop): five
+That is not an integer!
+Enter an integer: ("Quit" to stop): 3.3
+That is not an integer!
+Enter an integer: ("Quit" to stop): 2
+Enter an integer: ("Quit" to stop): Quit
+Total: 7
+
+----------------------------------------
+Task 2
+----------------------------------------
+Test stringPrinter
+*****
+
+getMessage:
+Please Enter a Positive Number!
+
+toString:
+java.lang.IllegalArgumentException: Please Enter a Positive Number!
+
+printStackTrace:
+java.lang.IllegalArgumentException: Please Enter a Positive Number!
+	at cp213.Main.stringPrinter(Main.java:87)
+	at cp213.Main.main(Main.java:26)
