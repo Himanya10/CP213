@@ -1,0 +1,47 @@
+Classes Lab Methods Tests
+================================================================================
+Author:  Himanya Verma
+ID:      169051154
+Email:   Verm1154@mylaurier.ca
+Version: 2024-10-01
+--------------------------
+
+================================================================================
+
+New Student:
+----------------------------------------
+Name:      Brown, David 
+ID:        123456
+Birthdate: 1962-10-25
+================================================================================
+Test Getters
+----------------------------------------
+ID: 123456
+Forename: David
+Suranme: Brown
+Birth Date: 1962-10-25
+================================================================================
+Test Setters
+----------------------------------------
+Updated Student:
+Name:      Laurier, Wilfred  
+ID:        654321
+Birthdate: 1841-11-20
+================================================================================
+Test compareTo
+----------------------------------------
+Comparing Name:      Laurier, Wilfred  
+ID:        654321
+Birthdate: 1841-11-20 and Name:       Washington, George 
+ID:        100001
+Birthdate: 1732-02-22: 44
+Comparing Name:      Laurier, Wilfred  
+ID:        654321
+Birthdate: 1841-11-20 and Name:       Churchhill, Winston 
+ID:        100002
+Birthdate: 1874-11-30: 44
+Comparing Name:       Washington, George 
+ID:        100001
+Birthdate: 1732-02-22 andName:       Churchhill, Winston 
+ID:        100002
+Birthdate: 1874-11-30: 20
