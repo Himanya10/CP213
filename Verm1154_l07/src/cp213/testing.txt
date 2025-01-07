@@ -1,0 +1,71 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Himanya Verma
+ID:      169051154
+Email:   Verm1154@mylaurier.ca
+Version: 2024-11-14
+-------------------------------------------------------
+"""
+----------------------------------------
+Task 1
+----------------------------------------
+Click the "Push Me" button.
+
+Expected Output:
+- Label updates to: "Push Me"
+- Console outputs: Push Me
+
+----------------------------------------
+Task 2
+----------------------------------------
+Select "Ketchup" checkbox.
+Deselect "Ketchup" checkbox.
+
+Expected Output:
+- When selected: checkBoxesSelected = [Ketchup]
+- When deselected: checkBoxesSelected = []
+
+----------------------------------------
+Task 3
+----------------------------------------
+Select the "Star Trek" radio button.
+Select the "Star Wars" radio button.
+
+Expected Output:
+- When "Star Trek" selected: radioButtonSet = Star Trek
+- When "Star Wars" selected: radioButtonSet = Star Wars
+
+----------------------------------------
+Task 4
+----------------------------------------
+Move the slider to 50.
+Stop sliding.
+
+Expected Output:
+- sliderSet = 50
+
+----------------------------------------
+Task 5
+----------------------------------------
+Set the spinner to "August."
+Set the spinner to "October."
+
+Expected Output:
+- When set to "August": spinnerSet = August
+- When set to "October": spinnerSet = October
+
+----------------------------------------
+Task 6
+----------------------------------------
+Enter "Hello World" in the text field and press Enter.
+
+Expected Output:
+- textEntry = Hello World
+
+----------------------------------------
+
+
+
